@@ -18,7 +18,6 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 
 		model.addAttribute("serverTime", "Yubraj is great" );
-		
 		return "home";
 	}
 	
